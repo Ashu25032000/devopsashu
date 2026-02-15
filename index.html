@@ -1,5 +1,23 @@
-<h1>Welcome to Devops session</h1>
-<a href="a.txt">Click here for first file</a> <br>
-<a href="b.txt">Click here for Second file</a> <br>
-<a href="c.txt">Click here for third file</a> <br>
-<h1> Pipeline completed  !! </h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to the Main Page</h1>
+        <p>This is the landing page of your multi-page website.</p>
+        <button id="btn">Click for Alert</button>
+    </div>
+
+    <script>
+        document.getElementById('btn').onclick = () => alert('Hello from Home!');
+    </script>
+</body>
+</html>
