@@ -1,3 +1,0 @@
-hello 
-I am B txt
-I am second file
